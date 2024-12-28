@@ -11,8 +11,14 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+h1{
+color:  #ff006a;
+}
+
+h1:hover {
+  filter: drop-shadow(0 0 2rem #ff006a);
+  -webkit-filter: drop-shadow(0 0 2rem #ff006a);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
