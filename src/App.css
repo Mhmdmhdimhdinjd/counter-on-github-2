@@ -12,14 +12,20 @@
   transition: filter 300ms;
 }
 
-h1{
-color:  #ff006a;
+h1 {
+  color: #ff006a;
+  transition: filter 0.3s ease-in-out;
+  -webkit-transition: filter 0.3s ease-in-out;
+  -moz-transition: filter 0.3s ease-in-out;
+  -ms-transition: filter 0.3s ease-in-out;
+  -o-transition: filter 0.3s ease-in-out;
 }
 
 h1:hover {
   filter: drop-shadow(0 0 2rem #ff006a);
   -webkit-filter: drop-shadow(0 0 2rem #ff006a);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -28,6 +34,7 @@ h1:hover {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
